@@ -1,5 +1,5 @@
-require(here)
-require(Rcpp)
+library(here)
+library(Rcpp)
 
 sourceCpp(here("src", "Cohort.cpp"))
 
